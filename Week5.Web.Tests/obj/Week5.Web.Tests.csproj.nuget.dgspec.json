@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web.Tests/Week5.Web.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web.Tests/Week5.Web.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web.Tests/Week5.Web.Tests.csproj",
+        "projectName": "Week5.Web.Tests",
+        "projectPath": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web.Tests/Week5.Web.Tests.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/Week5.Web.csproj": {
+                "projectPath": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/Week5.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/Week5.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/Week5.Web.csproj",
+        "projectName": "Week5.Web",
+        "projectPath": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/Week5.Web.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Users/sam/Playground/dotnet8/testing-demos/Week5/Week5.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
